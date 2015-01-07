@@ -1,0 +1,7 @@
+[user]
+	name = Alexandra
+	email = ya-aliks@yandex.ru
+[alias]
+	co = checkout
+[core]
+	editor = subl -w
