@@ -1,5 +1,6 @@
 @import "bootstrap";
-/* universal */
+
+/* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
 
@@ -115,4 +116,5 @@ li {
   margin-top: 45px;
   @include box_sizing;
 }
+
 }
