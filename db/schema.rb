@@ -11,11 +11,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20150126072049) do
-=======
+
 ActiveRecord::Schema.define(version: 20150127112704) do
->>>>>>> sign-up
 
   create_table "users", force: true do |t|
     t.string   "name"
