@@ -5,7 +5,7 @@ describe "Static pages" do
 	let(:base_title) { "Ruby on Rails Tutorial Sample App" }
 
   subject { page }
-##
+
   describe "Home page" do
     before { visit root_path }
 
@@ -13,7 +13,7 @@ describe "Static pages" do
     it { should have_title(full_title('')) }
     it { should_not have_title('| Home') }
   end
-##  
+ 
   describe "Help page" do
     before { visit help_path }
 
